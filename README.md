@@ -7,7 +7,7 @@ Model machine learning yang telah dilatih dikemas menggunakan **TensorFlow Servi
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Project ini mencakup beberapa tahapan utama:
 
@@ -53,7 +53,7 @@ Railway
 
 ---
 
-## 🧠 Model
+##  Model
 
 Model menggunakan neural network dengan arsitektur:
 
@@ -107,7 +107,7 @@ Churn
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Teknologi                 | Penggunaan               |
 | ------------------------- | ------------------------ |
@@ -156,7 +156,7 @@ a443-cc-pipeline/
 
 ---
 
-# ⚙️ Model Training
+#  Model Training
 
 Model dibuat menggunakan TensorFlow/Keras.
 
@@ -185,7 +185,7 @@ Epochs : 10
 
 ---
 
-# 🐳 Docker
+#  Docker
 
 Model dikemas menggunakan Docker dengan base image TensorFlow Serving.
 
@@ -216,7 +216,7 @@ REST : Railway PORT
 
 ---
 
-# ☁️ Deployment
+#  Deployment
 
 Model di-deploy menggunakan **Railway**.
 
@@ -252,7 +252,7 @@ https://ml-ops-production-7a49.up.railway.app/v1/models/cc-model:predict
 
 ---
 
-# 🔎 Model Metadata
+#  Model Metadata
 
 Metadata model dapat diperiksa menggunakan:
 
@@ -292,7 +292,7 @@ DT_FLOAT
 
 ---
 
-# 🧪 Testing Prediction
+#  Testing Prediction
 
 Prediction dilakukan menggunakan TensorFlow `tf.train.Example`.
 
@@ -340,7 +340,7 @@ requests.post(
 
 ---
 
-# 📊 Monitoring
+#  Monitoring
 
 Monitoring menggunakan **Prometheus**.
 
@@ -378,7 +378,7 @@ scrape_configs:
 
 ---
 
-# 📈 Monitoring Request
+#  Monitoring Request
 
 Salah satu metric yang digunakan untuk mengetahui jumlah request adalah:
 
@@ -405,7 +405,7 @@ Nilai tersebut menunjukkan jumlah request yang berhasil diproses oleh TensorFlow
 
 ---
 
-# ▶️ Menjalankan Prometheus secara Local
+#  Menjalankan Prometheus secara Local
 
 Build image:
 
@@ -439,7 +439,7 @@ UP
 
 ---
 
-# 🔄 Git Workflow
+#  Git Workflow
 
 Project menggunakan Git untuk version control.
 
@@ -463,7 +463,7 @@ https://github.com/Hamzah1302/Ml-Ops
 
 ---
 
-# 📝 Deployment Flow
+#  Deployment Flow
 
 Secara keseluruhan proses deployment:
 
@@ -495,7 +495,7 @@ Secara keseluruhan proses deployment:
 
 ---
 
-# ✅ Deployment Verification
+#  Deployment Verification
 
 Beberapa komponen yang telah berhasil diverifikasi:
 
@@ -514,7 +514,7 @@ Beberapa komponen yang telah berhasil diverifikasi:
 
 ---
 
-# 🎯 Tujuan Project
+# Tujuan Project
 
 Project ini dibuat sebagai implementasi konsep **Machine Learning Operations (MLOps)**, khususnya dalam proses:
 
